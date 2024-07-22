@@ -5,8 +5,8 @@ import (
 	"log"
 	"net"
 
-	"comment-service-gp1/internal/delivery/grpcsvc"
-	pb "comment-service-gp1/pb/comment"
+	"github.com/kodinggo/comment-service-gp1/internal/delivery/grpcsvc"
+	pb "github.com/kodinggo/comment-service-gp1/pb/comment"
 
 	"google.golang.org/grpc"
 )

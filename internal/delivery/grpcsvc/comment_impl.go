@@ -1,7 +1,7 @@
 package grpcsvc
 
 import (
-	pb "comment-service-gp1/pb/comment"
+	pb "github.com/kodinggo/comment-service-gp1/pb/comment"
 	"context"
 )
 

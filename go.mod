@@ -1,4 +1,4 @@
-module comment-service-gp1
+module github.com/kodinggo/comment-service-gp1
 
 go 1.22.0
 
