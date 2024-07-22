@@ -1,0 +1,21 @@
+syntax = "proto3";
+package pb.comment;
+
+option go_package = "pb/comment";
+
+message Comment {
+    int64 id = 1;
+    string comment = 2;
+}
+
+message Comments {
+    repeated Comment comments = 1;
+}
+
+message FindAllCommentsByStoryIDRequest {
+    int64 story_id = 1;
+}
+
+service CommentService {
+    rpc FindAllCommentsByStoryID(FindAllCommentsByStoryIDRequest) returns (Comments);
+}
